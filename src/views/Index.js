@@ -16,10 +16,18 @@
 
 */
 import React from "react";
+import NavBar from '../components/Navbars/DemoNavbar';
+import Hero from '../components/Hero/Hero';
+
 
 class Index extends React.Component {
   render() {
-    return (<h1>Hi there. This is Andrews, and this project is my new React project</h1>);
+    return (
+      <React.Fragment>
+        <NavBar />
+        <Hero />
+      </React.Fragment>
+    );    
   }
 }
 
