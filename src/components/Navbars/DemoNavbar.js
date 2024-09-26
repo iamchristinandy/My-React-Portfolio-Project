@@ -39,6 +39,7 @@ import {
   UncontrolledTooltip,
 } from "reactstrap";
 import MediaMenu from "../Menus/MediaMenu";
+import NavItemWithTooltip from "./NavItemWithTooltip";
 
 class DemoNavbar extends React.Component {
   componentDidMount() {
@@ -137,22 +138,7 @@ class DemoNavbar extends React.Component {
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
                   <NavItem>
-                    <NavLink
-                      className="nav-link-icon"
-                      href="https://www.facebook.com/creativetim"
-                      id="tooltip333589074"
-                      target="_blank"
-                    >
-                      <i className="fa fa-facebook-square" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Facebook
-                      </span>
-                    </NavLink>
-                    <UncontrolledTooltip delay={0} target="tooltip333589074">
-                      Like us on Facebook
-                    </UncontrolledTooltip>
-                  </NavItem>
-                  <NavItem>
+                    <NavItemWithTooltip />
                     <NavLink
                       className="nav-link-icon"
                       href="https://www.instagram.com/creativetimofficial"
