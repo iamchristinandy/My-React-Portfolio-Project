@@ -2,22 +2,20 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { NavItem, UncontrolledTooltip } from 'reactstrap'
 
-const NavItemWithTooltip = ({title, description, link}) => {
+const NavItemWithTooltip = ({title, description, icon, link}) => {
   return (
     <NavItem>
        <NavLink
            className="nav-link-icon"
-           href="https://www.facebook.com/creativetim"
-           id="tooltip333589074"
+           href={link}
+           id={`tooltip-${icon}-${title}`}
               target="_blank"
        >
-            <i className="fa fa-facebook-square" />
-            <span className="nav-link-inner--text d-lg-none ml-2">
-            Facebook
-            </span>
+            <i className={`fa fa-${icon}`} />
+            <span className="nav-link-inner--text d-lg-none ml-2">{title}</span>
         </NavLink>
-            <UncontrolledTooltip delay={0} target="tooltip333589074">
-            Like us on Facebook
+            <UncontrolledTooltip delay={0} target={`tooltip-${icon}-${title}`}>
+            {description}
            </UncontrolledTooltip>
     </NavItem>
   )

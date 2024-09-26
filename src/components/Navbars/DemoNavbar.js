@@ -134,26 +134,26 @@ class DemoNavbar extends React.Component {
                       </div>
                     </DropdownMenu>
                   </UncontrolledDropdown>
-                  
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
-                  <NavItem>
-                    <NavItemWithTooltip />
-                    <NavLink
-                      className="nav-link-icon"
-                      href="https://www.instagram.com/creativetimofficial"
-                      id="tooltip356693867"
-                      target="_blank"
-                    >
-                      <i className="fa fa-instagram" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Instagram
-                      </span>
-                    </NavLink>
-                    <UncontrolledTooltip delay={0} target="tooltip356693867">
-                      Follow us on Instagram
-                    </UncontrolledTooltip>
-                  </NavItem>
+                    <NavItemWithTooltip
+                      link='https://www.facebook.com/creativetim'
+                      icon='facebook-square'
+                      title='Facebook'
+                      description='Follow me on Facebook'
+                    />
+                    <NavItemWithTooltip
+                      link='https://www.instagram.com/creativetimofficial'
+                      icon='instagram'
+                      title='Instagram'
+                      description='Follow me on Instagram'
+                    />
+                    <NavItemWithTooltip
+                      link='https://twitter.com/creativetim'
+                      icon='twitter'
+                      title='Twitter'
+                      description='Follow me on Twitter'
+                    />
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
