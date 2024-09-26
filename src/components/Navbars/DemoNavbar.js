@@ -38,6 +38,7 @@ import {
   Col,
   UncontrolledTooltip,
 } from "reactstrap";
+import MediaMenu from "../Menus/MediaMenu";
 
 class DemoNavbar extends React.Component {
   componentDidMount() {
@@ -111,24 +112,7 @@ class DemoNavbar extends React.Component {
                     </DropdownToggle>
                     <DropdownMenu className="dropdown-menu-xl">
                       <div className="dropdown-menu-inner">
-                        <Media
-                          className="d-flex align-items-center"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/overview?ref=adsr-navbar"
-                          target="_blank"
-                        >
-                          <div className="icon icon-shape bg-gradient-primary rounded-circle text-white">
-                            <i className="ni ni-spaceship" />
-                          </div>
-                          <Media body className="ml-3">
-                            <h6 className="heading text-primary mb-md-1">
-                              Getting started
-                            </h6>
-                            <p className="description d-none d-md-inline-block mb-0">
-                              Learn how to use Argon compiling Scss, change
-                              brand colors and more.
-                            </p>
-                          </Media>
-                        </Media>
+                        <MediaMenu />
                         <Media
                           className="d-flex align-items-center"
                           href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/colors?ref=adsr-navbar"
