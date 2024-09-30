@@ -1,6 +1,6 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
 import { NavItem, UncontrolledTooltip } from 'reactstrap'
+import '../Navbars/'
 
 const NavItemWithTooltip = ({title, description, icon, link}) => {
   return (
