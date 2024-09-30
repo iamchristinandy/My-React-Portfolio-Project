@@ -2,10 +2,6 @@
     color: white !important; /* Sets the color of the icon and the link to white */
   }
   
-  .nav-link-icon:hover {
-    color: blue; /* Optional hover effect, change to blue color */
-  }
-  
   .nav-link-icon i {
     color: white; /* Explicitly target the <i> tags to ensure icons are white */
   }
