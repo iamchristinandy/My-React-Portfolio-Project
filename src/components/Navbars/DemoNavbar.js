@@ -137,19 +137,19 @@ class DemoNavbar extends React.Component {
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
                     <NavItemWithTooltip
-                      link='https://www.facebook.com/creativetim'
+                      link='https://www.facebook.com/andrews.baahkwafo'
                       icon='facebook-square'
                       title='Facebook'
                       description='Follow me on Facebook'
                     />
                     <NavItemWithTooltip
-                      link='https://www.instagram.com/creativetimofficial'
+                      link='https://www.instagram.com/tbdnofficial'
                       icon='instagram'
                       title='Instagram'
                       description='Follow me on Instagram'
                     />
                     <NavItemWithTooltip
-                      link='https://twitter.com/creativetim'
+                      link='https://twitter.com/iamchristinandy'
                       icon='twitter'
                       title='Twitter'
                       description='Follow me on Twitter'
@@ -157,23 +157,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://twitter.com/creativetim"
-                      id="tooltip184698705"
-                      target="_blank"
-                    >
-                      <i className="fa fa-twitter-square" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Twitter
-                      </span>
-                    </NavLink>
-                    <UncontrolledTooltip delay={0} target="tooltip184698705">
-                      Follow us on Twitter
-                    </UncontrolledTooltip>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className="nav-link-icon"
-                      href="https://github.com/creativetimofficial/argon-design-system-react"
+                      href="https://github.com/iamchristinandy"
                       id="tooltip112445449"
                       target="_blank"
                     >
