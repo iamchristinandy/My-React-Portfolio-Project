@@ -1,9 +1,9 @@
 .nav-link-icon {
-    color: white; /* Sets the color of the icon and the link to white */
+    color: white !important; /* Sets the color of the icon and the link to white */
   }
   
   .nav-link-icon:hover {
-    color: #f0f0f0; /* Optional hover effect, change to preferred color */
+    color: blue; /* Optional hover effect, change to preferred color */
   }
   
   .nav-link-icon i {
@@ -14,3 +14,18 @@
     color: #f0f0f0; /* Optional hover effect for icons */
   }
   
+  /* You can include specific media queries if needed, but these should not override the global color */
+@media (max-width: 768px) {
+    .nav-link-icon i {
+      color:black !important; /* Reinforces white color for mobile and tablet */
+    }
+    .nav-link-inner--text {
+        color: black !important; /* Titles are blue on mobile and tablet */
+      }
+  }
+  
+  @media (min-width: 769px) {
+    .nav-link-icon i {
+      color: white; /* Reinforces white color for desktop */
+    }
+  }

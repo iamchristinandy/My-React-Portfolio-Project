@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavItem, UncontrolledTooltip } from 'reactstrap'
-import '../Navbars/'
+import '../Navbars/socialiconscolour.css'
 
 const NavItemWithTooltip = ({title, description, icon, link}) => {
   return (
