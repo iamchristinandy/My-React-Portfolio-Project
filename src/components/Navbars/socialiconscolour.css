@@ -3,7 +3,7 @@
   }
   
   .nav-link-icon:hover {
-    color: blue; /* Optional hover effect, change to preferred color */
+    color: blue; /* Optional hover effect, change to blue color */
   }
   
   .nav-link-icon i {
@@ -14,13 +14,13 @@
     color: #f0f0f0; /* Optional hover effect for icons */
   }
   
-  /* You can include specific media queries if needed, but these should not override the global color */
+  /* Including specific media queries to distinguish desktop from tablet and mobile views*/
 @media (max-width: 768px) {
     .nav-link-icon i {
-      color:black !important; /* Reinforces white color for mobile and tablet */
+      color:black !important; /* Reinforces black color for mobile and tablet */
     }
     .nav-link-inner--text {
-        color: black !important; /* Titles are blue on mobile and tablet */
+        color: black !important; /* Titles are black on mobile and tablet */
       }
   }
   
