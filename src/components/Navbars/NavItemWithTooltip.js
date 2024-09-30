@@ -5,7 +5,7 @@ import { NavItem, UncontrolledTooltip } from 'reactstrap'
 const NavItemWithTooltip = ({title, description, icon, link}) => {
   return (
     <NavItem>
-       <NavLink
+       <a
            className="nav-link-icon"
            href={link}
            id={`tooltip-${icon}-${title}`}
@@ -13,7 +13,7 @@ const NavItemWithTooltip = ({title, description, icon, link}) => {
        >
             <i className={`fa fa-${icon}`} />
             <span className="nav-link-inner--text d-lg-none ml-2">{title}</span>
-        </NavLink>
+        </a>
             <UncontrolledTooltip delay={0} target={`tooltip-${icon}-${title}`}>
             {description}
            </UncontrolledTooltip>
@@ -21,4 +21,4 @@ const NavItemWithTooltip = ({title, description, icon, link}) => {
   )
 }
 
-export default NavItemWithTooltip
+export default NavItemWithTooltip;
