@@ -44,15 +44,9 @@ class Hero extends React.Component {
               <div className="col px-0">
                 <Row className="align-items-center justify-content-center">
                   <Col className="text-center" lg="6">
-                    <img
-                      alt="..."
-                      className="img-fluid"
-                      src={require("assets/img/brand/argon-react-white.png")}
-                      style={{ width: "200px" }}
-                    />
+                    <h1 className="display-1 text-white">Andrews Baah Kwafo's portfolio</h1>
                     <p className="lead text-white">
-                      A beautiful Design System for Bootstrap 4. It's Free and
-                      Open Source.
+                      Welcome to my website, pal. Browse to check out my frontend, backend and UI Design projects here.
                     </p>
                     <div className="btn-wrapper mt-5">
                       <Button
