@@ -47,23 +47,25 @@ class Hero extends React.Component {
                     <h1 className="display-1 text-white">Andrews Baah Kwafo's portfolio</h1>
                     <p className="lead text-white">
                       Welcome to my website, pal. Browse to check out my frontend, backend and UI Design projects here.
+                      You can also  have a look at my Github repositories or download my CV on the link below.
                     </p>
                     <div className="btn-wrapper mt-5">
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0"
                         color="default"
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                        // Put my CV link here
+                        href="#"
                         size="lg"
                       >
                         <span className="btn-inner--icon mr-1">
                           <i className="ni ni-cloud-download-95" />
                         </span>
-                        <span className="btn-inner--text">Download React</span>
+                        <span className="btn-inner--text">Download my CV</span>
                       </Button>{" "}
                       <Button
                         className="btn-icon mb-3 mb-sm-0"
                         color="github"
-                        href="https://github.com/creativetimofficial/argon-design-system-react"
+                        href="https://github.com/iamchristinandy"
                         size="lg"
                         target="_blank"
                       >
@@ -71,21 +73,10 @@ class Hero extends React.Component {
                           <i className="fa fa-github" />
                         </span>
                         <span className="btn-inner--text">
-                          <span className="text-warning mr-1">Star us</span>
+                          <span className="text-warning mr-1">Check me</span>
                           on Github
                         </span>
                       </Button>
-                    </div>
-                    <div className="mt-5">
-                      <small className="text-white font-weight-bold mb-0 mr-2">
-                        *proudly coded by
-                      </small>
-                      <img
-                        alt="..."
-                        className="ml-1"
-                        style={{ height: "28px" }}
-                        src={require("assets/img/brand/creativetim-white-slim.png")}
-                      />
                     </div>
                   </Col>
                 </Row>
