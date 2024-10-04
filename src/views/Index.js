@@ -19,6 +19,7 @@ import React from "react";
 import NavBar from '../components/Navbars/DemoNavbar';
 import Hero from '../components/Hero/Hero';
 import Footer from '../components/Footers/SimpleFooter';
+import ThreeCards from "../components/ThreeCards/ThreeCards";
 
 class Index extends React.Component {
   render() {
@@ -26,6 +27,7 @@ class Index extends React.Component {
       <React.Fragment>
         <NavBar />
         <Hero />
+        <ThreeCards />
         <Footer />
       </React.Fragment>
     );    

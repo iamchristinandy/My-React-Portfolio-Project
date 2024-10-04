@@ -1,4 +1,5 @@
 import React from 'react'
+import { Badge, Button, Card, CardBody, Col, Container, Row } from 'reactstrap'
 
 function ThreeCards() {
     <section className="section section-lg pt-lg-0 mt--200">
