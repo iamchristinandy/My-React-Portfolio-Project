@@ -2,6 +2,7 @@ import React from 'react'
 import { Badge, Button, Card, CardBody, Col, Container, Row } from 'reactstrap'
 
 function ThreeCards() {
+  return (
     <section className="section section-lg pt-lg-0 mt--200">
     <Container>
       <Row className="justify-content-center">
@@ -120,6 +121,7 @@ function ThreeCards() {
       </Row>
     </Container>
   </section>
+  )
 }
 
 export default ThreeCards
