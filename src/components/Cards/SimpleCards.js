@@ -1,35 +1,34 @@
 import React from 'react'
+import { Badge, Button, Card, CardBody } from 'reactstrap'
 
-function SimpleCards() {
+function SimpleCards( {title, description, color, icon, link, badges}) {
+  // Function to return badges
+  function returnBadges() {
+    return badges?.map((badge, index) => (
+      <Badge key={index} color={color} pill className="mr-1">
+        {badge}
+      </Badge>
+    ));
+  }
   return (
     <Card className="card-lift--hover shadow border-0">
                 <CardBody className="py-5">
-                  <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                    <i className="ni ni-check-bold" />
+                  <div className={`icon icon-shape icon-shape-${color} rounded-circle mb-4`}>
+                    <i className={`ni ni-${icon}`} />
                   </div>
-                  <h6 className="text-primary text-uppercase">
-                    Download Argon
+                  <h6 className={`text-${color} text-uppercase`}>
+                    {title}
                   </h6>
                   <p className="description mt-3">
-                    Argon is a great free UI package based on Bootstrap
-                    4 that includes the most important components and
-                    features.
+                    {description}
                   </p>
                   <div>
-                    <Badge color="primary" pill className="mr-1">
-                      design
-                    </Badge>
-                    <Badge color="primary" pill className="mr-1">
-                      system
-                    </Badge>
-                    <Badge color="primary" pill className="mr-1">
-                      creative
-                    </Badge>
+                    {returnBadges()}
                   </div>
                   <Button
                     className="mt-4"
-                    color="primary"
-                    href="#pablo"
+                    color={color}
+                    href={link}
                     onClick={(e) => e.preventDefault()}
                   >
                     Learn more

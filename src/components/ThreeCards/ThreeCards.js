@@ -10,7 +10,14 @@ function ThreeCards() {
         <Col lg="12">
           <Row className="row-grid">
             <Col lg="4">
-              <SimpleCards />
+              <SimpleCards
+              icon="spaceship"
+              color="primary"
+              title="Frontend"
+              description = "Check my Frontend projects"
+              badges={["React", "Vue", "Angular", "JavaScript"]}
+              link="#"
+              />
             </Col>
             <Col lg="4">
               <Card className="card-lift--hover shadow border-0">
