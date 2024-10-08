@@ -3,7 +3,7 @@ import { Badge, Button, Card, CardBody, Col, Container, Row } from 'reactstrap'
 
 function ThreeCards() {
   return (
-    <section className="section section-lg pt-lg-0 mt--200">
+    <section className="section section-lg pt-lg-0 mt--100">
     <Container>
       <Row className="justify-content-center">
         <Col lg="12">
