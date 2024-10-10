@@ -26,11 +26,18 @@ function ThreeCards() {
                 title="Backend"
                 description = "Check my Backend projects"
                 badges={["NodeJs", "Python", "C#", "Django"]}
-                link="#"
+                link="https://github.com/iamchristinandy"
                 />
             </Col>
             <Col lg="4">
-              
+              <SimpleCards
+                  icon="palette"
+                  color="warning"
+                  title="Design"
+                  description = "Check my Design projects"
+                  badges={["Figma","Dribbble", "Canva"]}
+                  link="https://dribbble.com/iamchristinandy"
+              />
             </Col>
           </Row>
         </Col>
