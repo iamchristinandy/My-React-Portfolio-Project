@@ -1,0 +1,6 @@
+@media (min-width: 992px) {
+    .profile-link {
+      color: #fff !important;
+      /* Enforce white color on desktop */
+    }  
+}
