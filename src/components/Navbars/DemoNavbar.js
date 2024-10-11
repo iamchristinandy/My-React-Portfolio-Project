@@ -135,6 +135,11 @@ class DemoNavbar extends React.Component {
                     </DropdownMenu>
                   </UncontrolledDropdown>
                 </Nav>
+                <NavItem>
+                  <NavLink href="/profile">
+                    Profile
+                  </NavLink>
+                </NavItem>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
                     <NavItemWithTooltip
                       link='https://www.facebook.com/andrews.baahkwafo'
