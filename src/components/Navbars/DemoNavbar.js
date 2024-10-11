@@ -136,7 +136,7 @@ class DemoNavbar extends React.Component {
                   </UncontrolledDropdown>
                 </Nav>
                 <NavItem>
-                  <NavLink href="/profile">
+                  <NavLink href="/profile" className="profilelink">
                     Profile
                   </NavLink>
                 </NavItem>

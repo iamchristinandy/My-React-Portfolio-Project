@@ -394,3 +394,11 @@
         transform: translate(0, 10px);
     }
 }
+
+
+@media (min-width: 992px) {
+    .profilelink {
+      color: #fff !important;
+      /* Enforce white color on desktop */
+    }  
+}
