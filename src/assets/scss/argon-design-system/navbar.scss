@@ -402,3 +402,8 @@
       /* Enforce white color on desktop */
     }  
 }
+
+.profilelink::before, 
+.profilelink::after {
+  content: none !important;
+}
