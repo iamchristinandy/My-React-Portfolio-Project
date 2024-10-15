@@ -28,6 +28,7 @@ class Index extends React.Component {
         <NavBar />
         <Hero />
         <ThreeCards />
+        <Testimonials />
         <Footer />
       </React.Fragment>
     );    
