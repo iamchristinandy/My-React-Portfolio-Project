@@ -20,7 +20,7 @@ import NavBar from '../components/Navbars/DemoNavbar';
 import Hero from '../components/Hero/Hero';
 import Footer from '../components/Footers/SimpleFooter';
 import ThreeCards from "../components/ThreeCards/ThreeCards";
-import Testimonial from "../components/Testimonials/Testimonial"
+// import Testimonial from "../components/Testimonials/Testimonial"
 
 class Index extends React.Component {
   render() {
@@ -29,7 +29,7 @@ class Index extends React.Component {
         <NavBar />
         <Hero />
         <ThreeCards />
-        <Testimonial />
+        {/* <Testimonial /> */}
         <Footer />
       </React.Fragment>
     );    
