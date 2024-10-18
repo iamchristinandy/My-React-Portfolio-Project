@@ -28,6 +28,15 @@ const items = [
                             Read More
                         </Button>
                     </Col>
+                    <Col className='p-5 ml-auto' md='5'>
+                    <div className="p-3">
+                        <img
+                            alt="..."
+                            className="img-fluid rounded shadow transform-perspective-right"
+                            src={require('assets/omg/faces/fezbot.jpg')}
+                        ></img>
+                    </div>
+                    </Col>
                 </Row>
             </Container>
         )
