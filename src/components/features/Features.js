@@ -45,10 +45,10 @@ function Features() {
                                       <Button
                                           className="mt-4"
                                           color="primary"
-                                          href="#pablo"
+                                          href="/profile"
                                           onClick={(e) => e.preventDefault()}
                                       >
-                                          Learn more
+                                          About Me
                                       </Button>
                                   </CardBody>
                               </Card>
