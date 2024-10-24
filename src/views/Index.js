@@ -15,7 +15,7 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+import React, {useRef} from "react";
 import NavBar from '../components/Navbars/DemoNavbar';
 import Hero from '../components/Hero/Hero';
 import Footer from '../components/Footers/SimpleFooter';
@@ -25,12 +25,14 @@ import Features from "../components/features/Features";
 
 function Index () {
   const frontend = useRef(null)
+  const backend = useRef(null)
   function scrollTo(to){
     switch (to) {
       case 'Frontend':
         frontend.current.scrollIntoView();
         break;
       case 'Backend':
+        backend.current.scrollIntoView();
         break;
       case 'Design':
         break;
