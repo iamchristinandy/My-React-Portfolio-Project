@@ -9,10 +9,10 @@ import {
     Row,
     Col,
   } from "reactstrap";
-function Features() {
+function Features({myref}) {
   return (
     <>
-    <section className="section section-lg pt-lg-0 mt--200">
+    <section className="section section-lg pt-lg-0 mt--200" ref={myref}>
           <Container>
               <Row className="justify-content-center">
                   <Col lg="12">

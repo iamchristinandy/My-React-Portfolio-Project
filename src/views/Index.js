@@ -24,8 +24,20 @@ import Features from "../components/features/Features";
 // import Testimonial from "../components/Testimonials/Testimonial"
 
 function Index () {
+  const frontend = useRef(null)
   function scrollTo(to){
-    console.log('Index', to)
+    switch (to) {
+      case 'Frontend':
+        frontend.current.scrollIntoView();
+        break;
+      case 'Backend':
+        break;
+      case 'Design':
+        break;
+       default:
+        break;
+    }
+    // console.log('Index', to)
 
   }
     return (
@@ -35,7 +47,7 @@ function Index () {
         <Hero />
         <ThreeCards />
         {/* <Testimonial /> */}
-        <Features />
+        <Features myref={frontend}/>
         <Footer />
       </React.Fragment>
     );    
