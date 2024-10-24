@@ -24,9 +24,14 @@ import Features from "../components/features/Features";
 // import Testimonial from "../components/Testimonials/Testimonial"
 
 function Index () {
+  function scrollTo(to){
+    console.log('Index', to)
+
+  }
     return (
       <React.Fragment>
-        <NavBar />
+
+        <NavBar scrollTo={scrollTo}/>
         <Hero />
         <ThreeCards />
         {/* <Testimonial /> */}

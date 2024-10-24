@@ -118,6 +118,7 @@ class DemoNavbar extends React.Component {
                           description='Check out my frontend project'
                           color='primary'
                           icon='spaceship'
+                          scrollTo={this.props.scrollTo}
                         />
                         <MediaMenu
                           title='Backend'

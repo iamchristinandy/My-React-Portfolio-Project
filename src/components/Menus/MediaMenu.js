@@ -1,12 +1,12 @@
 import React from 'react'
 import { Media } from 'reactstrap';
 
-function MediaMenu({title, description, icon, color}) {
+function MediaMenu({title, description, icon, color, scrollTo}) {
   return (
     <Media
        className="d-flex align-items-center"
-       href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/overview?ref=adsr-navbar"
        target="_blank"
+       onClick={() => scrollTo(title)}
     >
         <div className={`icon icon-shape bg-gradient-${color} rounded-circle text-white`}>
           <i className={`ni ni-${icon}`} />
