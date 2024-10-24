@@ -1,5 +1,5 @@
 import React from 'react'
-import { Badge, Button, Card, CardBody, Col, Container, Row } from 'reactstrap'
+import { Col, Container, Row } from 'reactstrap'
 import SimpleCards from '../Cards/SimpleCards'
 
 function ThreeCards() {
