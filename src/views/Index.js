@@ -23,8 +23,7 @@ import ThreeCards from "../components/ThreeCards/ThreeCards";
 import Features from "../components/features/Features";
 // import Testimonial from "../components/Testimonials/Testimonial"
 
-class Index extends React.Component {
-  render() {
+function Index () {
     return (
       <React.Fragment>
         <NavBar />
@@ -36,6 +35,5 @@ class Index extends React.Component {
       </React.Fragment>
     );    
   }
-}
 
 export default Index;
