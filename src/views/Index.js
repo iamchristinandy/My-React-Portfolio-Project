@@ -39,7 +39,6 @@ function Index () {
        default:
         break;
     }
-    // console.log('Index', to)
 
   }
     return (
