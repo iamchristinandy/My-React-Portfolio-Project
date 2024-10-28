@@ -31,11 +31,11 @@ function Index () {
       case 'Frontend':
         frontend.current.scrollIntoView();
         break;
-      case 'Backend':
-        backend.current.scrollIntoView();
-        break;
-      case 'Design':
-        break;
+      // case 'Backend':
+      //   backend.current.scrollIntoView();
+      //   break;
+      // case 'Design':
+      //   break;
        default:
         break;
     }
