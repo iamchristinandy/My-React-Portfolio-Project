@@ -154,7 +154,7 @@ function Features({myref}) {
                               </p>
                               <a
                                   className="font-weight-bold text-warning mt-5"
-                                  href="#pablo"
+                                  href="/profile"
                                   onClick={(e) => e.preventDefault()}
                               >
                                   A beautiful UI Kit for impactful websites
@@ -209,7 +209,7 @@ function Features({myref}) {
                                           </p>
                                           <a
                                               className="text-success"
-                                              href="#pablo"
+                                              href="/profile"
                                               onClick={(e) => e.preventDefault()}
                                           >
                                               Learn more
